@@ -103,7 +103,7 @@ const chartOptions = {
 };
 
 const Charts = () => (
-    <div className="w-screen">
+    <div className="w-screen max-w-[1400px]">
         <div className="grid grid-cols-4 max-[1100px]:grid-cols-2 max-[560px]:grid-cols-1 max-w-[1440px] w-full m-auto gap-12 text-center mx-auto pt-10">
             {directors.map(({ title, chartData, num }, index) => (
                 <div key={index} className="relative bg-purple-800/20 p-3 min-h-32 hover:shadow-[0_0_.5rem_0rem_rgba(251,53,208,1)] transition-all shadow-[0_0_0_0_rgba(255,255,255,1)] cursor-pointer hover:scale-105 flex flex-col justify-between rounded-lg overflow-hidden text-white">

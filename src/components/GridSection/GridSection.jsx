@@ -39,7 +39,7 @@ function GridSection() {
     ];
 
     return (
-        <div className="w-full flex flex-col justify-center items-center gap-8 text-white">
+        <div className="w-full max-w-[1400px] flex flex-col justify-center items-center gap-8 text-white">
             <div className="container mx-auto flex flex-col gap-7 justify-center items-center text-center max-w-[800px] pt-5">
                 <div className="badge w-fit mx-auto text-white/70 rounded-lg border border-white/40 px-2 py-1">
                     {head.badge}

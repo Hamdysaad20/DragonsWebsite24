@@ -60,7 +60,7 @@ const Card = ({ isPremier, title, description, overlayStyle, label, isDisabled }
 
 function TrainingServiceSection() {
     return (
-        <div className="w-full flex flex-col gap-8 text-white">
+        <div className="w-full max-w-[1400px] flex flex-col gap-8 text-white">
             <div className="head container mx-auto flex flex-col gap-7 justify-center text-center max-w-[800px] pt-5">
                 <Badge text={HeadData.badge} />
                 <h1 className="text-4xl md:text-6xl font-semibold">
