@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React, { useRef } from "react";
 
-import verified from "../../public//JSON/user/128121-verified.json";
-import badge from "../../public//JSON/user/BestMember-star-badge.json";
+import verified from "../../../public/JSON/user/128121-verified.json";
+import badge from "../../../public/JSON/user/BestMember-star-badge.json";
 
 import Lottie from "lottie-react";
 

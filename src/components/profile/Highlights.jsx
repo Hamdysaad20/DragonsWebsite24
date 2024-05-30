@@ -1,7 +1,7 @@
 import React from "react";
 import Stars from "./Stars";
 import data from "../JSON/profile/Highlights";
-import celeb from "../../public/JSON/celebrate.json";
+import celeb from "../../../public/JSON/celebrate.json";
 
 function Highlights() {
   return (

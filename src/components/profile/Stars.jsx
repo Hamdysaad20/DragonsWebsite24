@@ -3,18 +3,24 @@ import React, { useRef } from "react";
 function Stars(props) {
   const lottieRef = useRef();
 
-  async function clicks() {
-    lottieRef.current.goToAndPlay();
+  const clicks = () => {
+    lottieRef.current.play();
   }
+
+  
   return (
     <div>
       <div className="flex  mt-5 relative  select-none ">
         <div className="h-28 w-28 absolute top-0 left-0 z-10 ">
           <Lottie
             className="z-10 md:m-5 "
-            animationData={props.celeb}
             lottieRef={lottieRef}
+            hover={true}
+            animationData={props.celeb}
             onClick={clicks}
+
+            
+            
           />
         </div>
         <div className="bg-gray-700/40 z-30 hover:bg-gray-600/40 duration-500  overflow-hidden rounded-lg   pr-3 pt-2     m-5">

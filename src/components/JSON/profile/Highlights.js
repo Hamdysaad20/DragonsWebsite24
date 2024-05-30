@@ -1,6 +1,6 @@
 import Image from "next/image";
-import star from "../../../public/JSON/star/97585-star.json";
-import hastage from "../../../public/JSON/user/9897-hashtag-animation.json";
+import star from "../../../../public/JSON/star/97585-star.json";
+import hastage from "../../../../public/JSON/user/9897-hashtag-animation.json";
 const Highlights = [
   {
     id: 4,
