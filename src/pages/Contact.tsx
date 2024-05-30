@@ -28,7 +28,7 @@ function Contact() {
       .then(
         (result) => {
           console.log(result.text);
-          router.push("/Done");
+          router.push("/");
         },
         (error) => {
           emailjs
@@ -41,7 +41,7 @@ function Contact() {
             .then(
               (result) => {
                 console.log(result.text);
-                router.push("/Done");
+                router.push("/");
               },
               (error) => {
                 emailjs
@@ -54,7 +54,7 @@ function Contact() {
                   .then(
                     (result) => {
                       console.log(result.text);
-                      router.push("/Done");
+                      router.push("/");
                     },
                     (error) => {
                       console.log(error.text);
