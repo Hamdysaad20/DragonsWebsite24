@@ -54,13 +54,13 @@ export const VideoSection = () => {
       </div>
 
       <VideoAnnounce
-          smallHeadText="September Webinar"
-          headText="Tech Odyssey"
-          pText=" an extraordinary webinar that explores the world of cutting-edge technology , listen from an expert in the field and get to know the latest trends in the industry"
-          videoURL="YBhOsNq7h5o"
-          announceURl="/WebinarPage?t=435"
-          titleadd="USE CODE: 435 when you asked for a code 🚨🚨"
-        />
+        smallHeadText="September Webinar"
+        headText="Tech Odyssey"
+        pText=" an extraordinary webinar that explores the world of cutting-edge technology , listen from an expert in the field and get to know the latest trends in the industry"
+        videoURL="YBhOsNq7h5o"
+        announceURl="/WebinarPage?t=435"
+        titleadd="USE CODE: 435 when you asked for a code 🚨🚨"
+      />
     </div>
   );
 };

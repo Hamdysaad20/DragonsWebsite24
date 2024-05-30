@@ -20,7 +20,9 @@ const ImageGallery = ({ images }) => {
   };
 
   const showPrevImage = () => {
-    setSelectedIndex((prevIndex) => (prevIndex - 1 + images.length) % images.length);
+    setSelectedIndex(
+      (prevIndex) => (prevIndex - 1 + images.length) % images.length,
+    );
   };
 
   const showMoreImages = () => {

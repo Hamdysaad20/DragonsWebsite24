@@ -5,46 +5,46 @@ import Footer from "../components/Footer";
 import HeaderComp from "../components/HeaderComp/Header";
 import Head from "next/head";
 export default function App({ Component, pageProps }: AppProps) {
-    //TODO: Change and add (Tracks Page(Instade of home), Blog)
-    let nav_links = [
-      {
-        id: 1,
-        name: "Talents",
-        link: "/Talents",
-      },
-      {
-        id: 2,
-        name: "Team",
-        link: "/Team",
-      },
-      {
-        id: 3,
-        name: "Gallery",
-        link: "/Gallary",
-      },
-      {
-        id: 4,
-        name: "DSA",
-        link: "/DSA",
-      },
-      {
-        id: 5,
-        name: "Bootcamp",
-        link: "/Bootcamp",
-      }
-    ];
-  
-    let Join = [
-      {
-        id: 1,
-        name: "Contact Us ",
-        link: "/Contact",
-      },
-    ];
-  
+  //TODO: Change and add (Tracks Page(Instade of home), Blog)
+  let nav_links = [
+    {
+      id: 1,
+      name: "Talents",
+      link: "/Talents",
+    },
+    {
+      id: 2,
+      name: "Team",
+      link: "/Team",
+    },
+    {
+      id: 3,
+      name: "Gallery",
+      link: "/Gallary",
+    },
+    {
+      id: 4,
+      name: "DSA",
+      link: "/DSA",
+    },
+    {
+      id: 5,
+      name: "Bootcamp",
+      link: "/Bootcamp",
+    },
+  ];
+
+  let Join = [
+    {
+      id: 1,
+      name: "Contact Us ",
+      link: "/Contact",
+    },
+  ];
+
   return (
     <>
-    <div>
+      <div>
         <Head>
           <title>Dragons</title>
           <meta
@@ -57,7 +57,6 @@ export default function App({ Component, pageProps }: AppProps) {
             rel="shortcut icon"
             href="/Identity/Images/2023/SVG/LLogo.svg"
           />
-
         </Head>
 
         <HeaderComp nav_links={nav_links} Join={Join} />
@@ -69,5 +68,5 @@ export default function App({ Component, pageProps }: AppProps) {
         <Footer />
       </div>
     </>
-  )
+  );
 }

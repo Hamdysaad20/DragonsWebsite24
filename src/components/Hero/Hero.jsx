@@ -64,7 +64,7 @@ function Hero() {
       <div className="flex justify-center mt-16 px-12 max-[1000px]:px-3">
         <Charts />
       </div>
-      
+
       <div className="max-w-[1400px] md:h-[800px] container_3d sm:mt-10 md:mt-3 lg:-mt-20 relative m-auto flex justify-center">
         <Image
           style={{ fontFamily: "interV" }}

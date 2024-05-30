@@ -18,8 +18,7 @@ export const TrustedSection = () => {
           style={{ fontFamily: "interV" }}
           className="text-lg flex text-center  mb-16 pt-6 relative z-10 text-purple-300/50 justify-center m-auto"
         >
-          Never miss a chance to learn, join our events and meet our
-          community.
+          Never miss a chance to learn, join our events and meet our community.
         </p>
       </div>
 

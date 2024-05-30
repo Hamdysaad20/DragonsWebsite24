@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-
 function TechStack(props) {
   const [toggleState, setToggleState] = useState(1);
   const toggleTab = (index) => {

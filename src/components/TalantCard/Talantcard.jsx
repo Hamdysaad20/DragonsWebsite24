@@ -1,5 +1,5 @@
-'use client'
-import React ,{useState} from "react";
+"use client";
+import React, { useState } from "react";
 import Image from "next/image";
 import Popover from "@mui/material/Popover";
 import Typography from "@mui/material/Typography";
@@ -9,9 +9,8 @@ let iconSize = 25;
 let iconSocial = "opacity-25 hover:opacity-100 duration-500 ";
 
 function Talantcard(props) {
-  
-  const [anchorEl, setAnchorEl] =useState(null);
-  const [anchorEl2, setAnchorEl2] =useState(null);
+  const [anchorEl, setAnchorEl] = useState(null);
+  const [anchorEl2, setAnchorEl2] = useState(null);
   const [details, setDetails] = useState(false);
   const [DiscordCode, setDiscordCode] = useState(props.Link_profile_Discord);
 
