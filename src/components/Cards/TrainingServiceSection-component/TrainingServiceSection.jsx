@@ -41,12 +41,12 @@ const Badge = ({ text }) => (
 const Card = ({ isPremier, title, description, overlayStyle, label, isDisabled }) => (
     <Link href="/Contact" 
         passHref={true}
-        className={`bg-[#181619] rounded-xl h-[200px] relative overflow-hidden text-center p-5 flex flex-col gap-5 cursor-pointer transition-all hover:scale-105 
+        className={`bg-[#181619] rounded-2xl h-[200px] relative overflow-hidden text-center p-5 flex flex-col gap-5 cursor-pointer transition-all hover:scale-105 
         ${isPremier ? "shadow-[0_0_0_0_#fff] hover:shadow-[0_0_.5rem_0rem_rgb(234,179,8)] border-2 border-[rgba(162,121,0,0.6)]" : "hover:shadow-[0_0_.5rem_0rem_rgba(251,53,208,1)]"}
         ${isDisabled && 'hover:!scale-100 hover:shadow-none !opacity-40 !cursor-not-allowed'}`}
     >
         <div className="flex justify-between items-center">
-            <h1 className="font-semibold text-2xl bg-gradient-to-r from-white to-gray-800 text-transparent bg-clip-text">
+            <h1 className="font-semibold text-3xl bg-gradient-to-r from-white to-gray-400 hover:text-white text-transparent bg-clip-text">
                 {title}
             </h1>
             <div className={`text-[14px] px-2 border border-white/60 rounded-xl ${isPremier && 'border-yellow-500 text-yellow-500'}`}>
