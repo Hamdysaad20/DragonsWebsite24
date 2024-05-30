@@ -1,0 +1,41 @@
+{
+  "pages/index.tsx -> ../components/Cards/TrainingServiceSection-component/TrainingServiceSection": {
+    "id": 2000,
+    "files": [
+      "static/chunks/0.845e34dc9d78f6f3.js"
+    ]
+  },
+  "pages/index.tsx -> ../components/GridSection/GridSection": {
+    "id": 6675,
+    "files": [
+      "static/chunks/675.a458d296d1bf4eec.js"
+    ]
+  },
+  "pages/index.tsx -> ../components/Hero/Hero": {
+    "id": 308,
+    "files": [
+      "static/css/e9c312cdbd003e9b.css",
+      "static/chunks/ee8b1517.942be4d0647b0334.js",
+      "static/chunks/853.825114bfc162f895.js",
+      "static/chunks/308.9a96e3d28d5a6b40.js"
+    ]
+  },
+  "pages/index.tsx -> ../components/TechStack/TechStack": {
+    "id": 9509,
+    "files": [
+      "static/chunks/509.36b700c12d013288.js"
+    ]
+  },
+  "pages/index.tsx -> ../components/TestmonialSection/TestmonialSection": {
+    "id": 2823,
+    "files": [
+      "static/chunks/823.bf66258c6b88adb4.js"
+    ]
+  },
+  "pages/index.tsx -> ../components/WhatWeDo": {
+    "id": 5959,
+    "files": [
+      "static/chunks/959.dceb36031e36b37b.js"
+    ]
+  }
+}
