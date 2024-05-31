@@ -266,11 +266,6 @@ function Talantcard(props) {
                         >
                           {tag.city}
                         </div>
-                        <div
-                          className={"rounded-full  px-3 py-2 bg-gray-700/40"}
-                        >
-                          {tag.Food}
-                        </div>
                         {/* <div  className={"rounded-full  px-3 py-2 bg-gray-700/40"}>
                                 {tag.JoinYear} YearEx
                                 </div> */}
